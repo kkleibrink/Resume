@@ -14,7 +14,7 @@ function App() {
 
       <section className="my-5">
         <h2>Summary</h2>
-        <p>Mechanical Engineering graduate with a strong background in software development, automation, and 3D modeling. Highly adaptable, hardworking, and dedicated to improving processes and tackling challenges. Demonstrated experience in Smart3D administration, project coordination, and operations engineering.</p>
+        <p>Mechanical Engineering graduate with a strong background in software development, automation, and 3D modeling. Highly adaptable, hardworking, and dedicated to improving processes and tackling challenges. Demonstrated experience in Smart3D development, project coordination, and operations engineering.</p>
       </section>
 
       <section className="my-5">
@@ -140,7 +140,7 @@ function App() {
           </div>
           <div className="card-body">
             <p className="card-text">
-              This is an in-progress website that demonstrates the use of the MERN stack (MongoDB, Express, Node.js, and React). The back end and front end are both deployed, and it successfully utilizes MongoDB to store issues and users data. It also demonstrates login capabilities as well               as user and admin permissions.
+              This is an in-progress website that demonstrates the use of the MERN stack (MongoDB, Express, Node.js, and React). The back end and front end are both deployed, and it successfully utilizes MongoDB to store issues and users data. It also demonstrates login capabilities as well as user and admin permissions. Use testuser@gmail.com and password:testuser to login or register for your own account.
             </p>
           </div>
         </div>
