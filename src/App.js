@@ -65,80 +65,91 @@ function App() {
             Operations Engineering Intern
           </div>
           <div className="card-body">
-          <h5 className="card-title">Canadian General Electric, Calgary, AB</h5>
-            <p className="card-text">October 2016 - December 2017</p>
-            <ul className="list-group list-group-flush">
-              <li className="list-group-item">Collaborated with Applications Engineer and Operations</li>
-              <li className="list-group-item">Designed and innovated 3D parts for Pipeline Pigs</li>
-              <li className="list-group-item">Gained hands-on experience in the shop and field</li>
-              <li className="list-group-item">Assisted in executing pigging runs</li>
-              <li className="list-group-item">Developed engineering drawing skills (creating and reading)</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section className="my-5">
-        <h2>Skills</h2>
-        <div className="row">
-          <div className="col-md-4">
-            <h5>Programming:</h5>
-            <li>.NET Framework</li>
-              <li>C#</li>
-              <li>C/C++</li>
-              <li>Python</li>
-              <li>Javascript</li>
-              <li>SQL</li>
-              <li>Visual Basic</li>
-              <li>XML</li>
-              <li>MERN Stack (MongoDB, React, Node.js) </li>
-
-          </div>
-          <div className="col-md-4">
-            <h5>Software:</h5>
-            <li>Microsoft SQL Server</li>
-              <li>MySQL</li>
-              <li>Visual Studio</li>
-              <li>Autodesk Inventor</li>
-              <li>Visual Studio Code</li>
-              
-          </div>
-          <div className="col-md-4">
-            <h5>Engineering:</h5>
-            <li>Mechanical engineering</li>
-              <li>Drafting</li>
-              <li>Software development</li>
-          </div>
-        </div>
-      </section>
-
-      <section className="my-5">
-        <div className="row">
-          <div className="col-md-4">
-            <h2>Languages</h2>
-            <li>English - Advanced</li>
-          </div>
-          <div className="col-md-8">
-            <h2>My Personal Projects</h2>
-            <div className="card">
-              <div className="card-header">
-                <a href="https://travelplans.io" target="_blank" rel="noopener noreferrer">
-                  TravelPlans.io
-                </a>
-              </div>
-              <div className="card-body">
-                <p className="card-text">
-                  Showcases a simple React website with a frontend and backend that is accessing OpenAI and displaying a travel plan for the destination, dates, and any additional context provided. My plan is to build on this site to add up-to-date destination information and booking capabilities.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+          <h5 className="card-title">Canadian General Electric, Calgary, AB</h5> 
+        <p className="card-text">October 2016 - December 2017</p>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">Collaborated with Applications Engineer and Operations</li>
+          <li className="list-group-item">Designed and innovated 3D parts for Pipeline Pigs</li>
+          <li className="list-group-item">Gained hands-on experience in the shop and field</li>
+          <li className="list-group-item">Assisted in executing pigging runs</li>
+          <li className="list-group-item">Developed engineering drawing skills (creating and reading)</li>
+        </ul>
+      </div>
     </div>
-  );
+  </section>
+
+  <section className="my-5">
+    <h2>Skills</h2>
+    <div className="row">
+      <div className="col-md-4">
+        <h5>Programming:</h5>
+        <li>.NET Framework</li>
+          <li>C#</li>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>SQL</li>
+          <li>Visual Basic</li>
+          <li>XML</li>
+          <li>MERN Stack (MongoDB, Express, React, Node.js) </li>
+
+      </div>
+      <div className="col-md-4">
+        <h5>Software:</h5>
+        <li>Microsoft SQL Server</li>
+          <li>MySQL</li>
+          <li>Visual Studio</li>
+          <li>Autodesk Inventor</li>
+          <li>Visual Studio Code</li>
+          
+      </div>
+      <div className="col-md-4">
+        <h5>Engineering:</h5>
+        <li>Mechanical engineering</li>
+          <li>Drafting</li>
+          <li>Software development</li>
+      </div>
+    </div>
+  </section>
+
+  <section className="my-5">
+    <div className="row">
+      <div className="col-md-4">
+        <h2>Languages</h2>
+        <li>English - Advanced</li>
+      </div>
+      <div className="col-md-8">
+        <h2>My Personal Projects</h2>
+        <div className="card">
+          <div className="card-header">
+            <a href="https://travelplans.io" target="_blank" rel="noopener noreferrer">
+              TravelPlans.io
+            </a>
+          </div>
+          <div className="card-body">
+            <p className="card-text">
+              Showcases a simple React website with a frontend and backend that is accessing OpenAI and displaying a travel plan for the destination, dates, and any additional context provided. My plan is to build on this site to add up-to-date destination information and booking capabilities.
+            </p>
+          </div>
+        </div>
+        <div className="card mt-3">
+          <div className="card-header">
+            <a href="https://designtrack.ca" target="_blank" rel="noopener noreferrer">
+              DesignTrack.ca
+            </a>
+          </div>
+          <div className="card-body">
+            <p className="card-text">
+              This is an in-progress website that demonstrates the use of the MERN stack (MongoDB, Express, Node.js, and React). The back end and front end are both deployed, and it successfully utilizes MongoDB to store issues and users data. It also demonstrates login capabilities as well               as user and admin permissions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+);
 }
 
+export default App
 
-
-export default App;
